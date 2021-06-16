@@ -1,0 +1,1 @@
+# Vtex-Store-Theme

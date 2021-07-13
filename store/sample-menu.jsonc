@@ -1,0 +1,77 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "props":{
+            "orientation": "vertical"
+        },
+        "children":[
+            "menu-item#news",
+            "menu-item#Blackfriday",
+            "menu-item#Sale",
+            "menu-item#Personalization"
+             
+        ]
+    },
+    "menu-item#news":{
+        "props":{
+            "id":"menu-item-news",
+            "type":"custom",
+            "highlight":false,
+            "item-props":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"news",
+                "text":"news"
+            }
+            
+        }
+    },
+
+    "menu-item#Black friday":{
+        "props":{
+            "id":"menu-item-blackfriday",
+            "type":"custom",
+            "highlight":false,
+            "item-props":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"blackfriday",
+                "text":"blackfriday"
+            }
+            
+        }
+    },
+
+    "menu-item#Sale":{
+        "props":{
+            "id":"menu-item-sale",
+            "type":"custom",
+            "highlight":false,
+            "item-props":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"sale",
+                "text":"sale"
+            }
+            
+        }
+    },
+
+    "menu-item#Personalization":{
+        "props":{
+            "id":"menu-item-Personalization",
+            "type":"custom",
+            "highlight":false,
+            "item-props":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Personalization",
+                "text":"Personalization"
+            }
+        }
+    }
+   
+}

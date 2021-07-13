@@ -153,7 +153,10 @@
     },
     "children": [
       "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#sample-app",
+      "menu-item#modal"
+
     ]
   },
   "menu-item#about-us": {
@@ -168,6 +171,21 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "About us"
+      }
+    }
+  },
+  "menu-item#modal": {
+    "props": {
+      "id": "menu-item-modal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/modal",
+        "noFollow": true,
+        "tagTitle": "modal",
+        "text": "modal"
       }
     }
   },
@@ -186,6 +204,22 @@
       }
     }
   },
+  "menu-item#sample-app": {
+    "props": {
+      "id": "menu-item-sample-app",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sample-app",
+        "noFollow": true,
+        "tagTitle": "Custome Page",
+        "text": "Custome Page"
+      }
+    }
+  },
+
   "menu-item#contact-us": {
     "props": {
       "id": "menu-item-contact-us",

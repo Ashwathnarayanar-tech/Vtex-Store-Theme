@@ -23,5 +23,8 @@
   },
   "footer":{
      "path":"/footer"
+  },
+  "store.custom#sample-sustainable":{
+   "path":"/sample-sustainable"
   }
 }

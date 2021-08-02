@@ -20,7 +20,14 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["login-content#default"],
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
+    }
   },
 
   "login-content#default": {

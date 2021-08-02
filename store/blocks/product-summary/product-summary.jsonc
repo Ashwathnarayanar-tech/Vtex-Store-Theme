@@ -8,6 +8,7 @@
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
+      "wishlist-button#product-summarypage",
       "add-to-cart-button"
     ]
   },
@@ -85,6 +86,11 @@
         "discount"
       ],
       "blockClass": "summary"
+    }
+  },
+  "wishlist-button#product-summarypage":{
+    "props":{
+      "AddListenBtn": "add-to-list-btn"
     }
   }
 }

@@ -3,11 +3,13 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      "product-customName",
       "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
+      "wishlist-button#product-summarypage",
       "add-to-cart-button"
     ]
   },
@@ -85,6 +87,11 @@
         "discount"
       ],
       "blockClass": "summary"
+    }
+  },
+  "wishlist-button#product-summarypage":{
+    "props":{
+      "AddListenBtn": "add-to-list-btn"
     }
   }
 }

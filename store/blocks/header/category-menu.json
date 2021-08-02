@@ -200,5 +200,20 @@
         "text": "Contact Us"
       }
     }
+  },
+  "menu-item#samplePage": {
+    "props": {
+      "id": "menu-item-samplePage",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "//sample-sustainable",
+        "noFollow": true,
+        "tagTitle": "Sample Page",
+        "text": "Sample"
+      }
+    }
   }
 }

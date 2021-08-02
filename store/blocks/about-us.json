@@ -15,13 +15,21 @@
 
   "flex-layout.col#text-about-us": {
     "children": [
-      "rich-text#title-about-us",
-      "rich-text#about-us"
+      "experimental__visibility-layout#first-changes"
+      
     ],
     "props": {
       "blockclass": "textColumn",
       "preventVerticalStretch": true
     }
+  },
+
+  "experimental__visibility-layout#first-changes":{
+    "title":"First Section",
+    "children":[
+      "rich-text#title-about-us",
+      "rich-text#about-us"
+    ]
   },
 
   "rich-text#title-about-us": {

@@ -101,6 +101,7 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
+      "wishlist-button#product-page",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
@@ -119,6 +120,12 @@
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
+    }
+  },
+
+  "wishlist-button#product-page":{
+    "props":{
+      "AddListenBtn": "add-to-list-btn"
     }
   },
 

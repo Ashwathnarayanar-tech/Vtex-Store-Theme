@@ -30,13 +30,47 @@
       "blockClass": "cards-sustainability-wrapper"
     },
     "children":[
-      "info-card#first-left",
-      "info-card#first-right",
-      "info-card#second-left",
-      "info-card#second-right",
-      "info-card#third-left"
+      "experimental__visibility-layout#first-left1",
+      "experimental__visibility-layout#first-right2",
+      "experimental__visibility-layout#second-left3",
+      "experimental__visibility-layout#second-right4",
+       "experimental__visibility-layout#third-left5"
     ]
   },
+  "experimental__visibility-layout#first-left1":{
+   "title":"First Section",
+   "children":[
+    "info-card#first-left"
+   ]
+  },
+
+  "experimental__visibility-layout#first-right2":{
+    "title":"Second Section",
+    "children":[
+      "info-card#first-right"
+    ]
+  },
+  "experimental__visibility-layout#second-left3":{
+    "title":"Third Section",
+    "children":[
+      "info-card#second-left"
+    ]
+  },
+
+  "experimental__visibility-layout#second-right4":{
+    "title":"Fourth Section",
+    "children":[
+      "info-card#second-right"
+    ]
+  },
+
+  "experimental__visibility-layout#third-left5":{
+  "title":"Fifth Section",
+  "children":[
+    "info-card#third-left"
+  ]
+  },
+
   "info-card#first-left": {
     "title": "Info Card 1",
     "props": {

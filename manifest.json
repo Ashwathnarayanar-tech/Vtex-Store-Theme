@@ -63,6 +63,7 @@
     "vtex.product-highlights": "2.x",
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
+    "vtex.visibility-layout": "0.x",
     "vtex.css-handles": "0.x",
     "vtex.product-context": "0.x"
   },

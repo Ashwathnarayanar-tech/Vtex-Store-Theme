@@ -1,0 +1,8 @@
+{
+  "name": "Vtex-Store-Theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ashwathnarayanar-tech/Vtex-Store-Theme.git",
+  "author": "deepi1997 <dreadeepika0@gmail.com>",
+  "license": "MIT"
+}

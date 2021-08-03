@@ -16,7 +16,7 @@
   },
 
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": ["experimental__visibility-layout#slider-layout"],
     "props": {
       "height": 720,
       "images": [
@@ -31,6 +31,13 @@
       ]
     }
   },
+   "experimental__visibility-layout#slider-layout":{
+     "title":"Deal Changes",
+     "children":[
+      "slider-layout#demo-images"
+     ]
+   },
+
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -55,11 +62,19 @@
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["experimental__visibility-layout"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
+
+   "experimental__visibility-layout":{
+     "title":"Product-Summary",
+     "children":[
+      "slider-layout#demo-products"
+     ]
+   },
+
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {

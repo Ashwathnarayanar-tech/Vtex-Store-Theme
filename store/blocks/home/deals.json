@@ -1,16 +1,21 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "experimental__visibility-layout#deals1",
+      "experimental__visibility-layout#deals2",
+      "experimental__visibility-layout#deals3",
+      "experimental__visibility-layout#deals4"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
-
+   "experimental__visibility-layout#deals1":{
+     "title":"Deals-1",
+     "children":[
+      "flex-layout.col#deals1"
+     ]
+   },
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
@@ -29,6 +34,13 @@
       "blockClass": "deals"
     }
   },
+  "experimental__visibility-layout#deals2":{
+    "title":"Deal-2",
+    "children":[
+      "flex-layout.col#deals2"
+    ]
+  },
+
   "flex-layout.col#deals2": {
     "children": [
       "image#deal2",
@@ -47,6 +59,13 @@
       "blockClass": "deals"
     }
   },
+"experimental__visibility-layout#deals3":{
+  "title":"Deal-3",
+  "children":[
+    "flex-layout.col#deals3"
+  ]
+},
+
   "flex-layout.col#deals3": {
     "children": [
       "image#deal3",
@@ -64,6 +83,13 @@
       "text": "Pick up in store",
       "blockClass": "deals"
     }
+  },
+
+  "experimental__visibility-layout#deals4":{
+    "title":"Deals-4",
+    "children":[
+      "flex-layout.col#deals4"
+    ]
   },
   "flex-layout.col#deals4": {
     "children": [

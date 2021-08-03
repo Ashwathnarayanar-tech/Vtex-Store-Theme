@@ -105,7 +105,8 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default"
+      "share#default",
+      "product-availability"
     ]
   },
 
@@ -145,6 +146,12 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+  "product-availability": {
+    "props": {
+      "showAvailability": "stock",
+      "showAvailabilityMessage": "There are {quantity} available!"
     }
   }
 }

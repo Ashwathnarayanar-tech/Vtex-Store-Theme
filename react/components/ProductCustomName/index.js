@@ -8,7 +8,7 @@ const ProductCustomName = () => {
   return (
     <div>
       {productContextValue?.product?.productName}
-      {productContextValue?.product?.price};
+      {productContextValue?.product?.price}
     </div>
   )
 }

@@ -51,6 +51,15 @@
       "width": "grow"
     }
   },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
   "sticky-layout#4-desktop": {
     "props": {
       "blockClass": "sticky-header"

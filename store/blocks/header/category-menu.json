@@ -42,7 +42,8 @@
     "children": [
       "menu-item#category-apparel-clothing",
       "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-apparel-eyeglasses",
+      "menu-item#category-apparel-refridgerators"
     ]
   },
   "menu-item#category-apparel-clothing": {
@@ -90,6 +91,22 @@
       }
     }
   },
+  "menu-item#category-apparel-refridgerators": {
+    "props": {
+      "id": "menu-item-category-apparel-refridgerators",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/refridgerators/",
+        "noFollow": false,
+        "tagTitle": "refridgerators",
+        "text": "refridgerators"
+      }
+    }
+  },
+
   "menu-item#category-home": {
     "props": {
       "id": "menu-item-category-home",

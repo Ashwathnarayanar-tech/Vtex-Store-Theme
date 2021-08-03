@@ -120,7 +120,10 @@
         "tagTitle": "Home & Decor",
         "text": "Home & Decor"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
   },
   "menu-item#more": {
     "props": {
@@ -170,7 +173,8 @@
     },
     "children": [
       "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#faq",
+      "menu-item#samplePage" 
     ]
   },
   "menu-item#about-us": {
@@ -226,7 +230,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "//sample-sustainable",
+        "href": "/sample-sustainable",
         "noFollow": true,
         "tagTitle": "Sample Page",
         "text": "Sample"

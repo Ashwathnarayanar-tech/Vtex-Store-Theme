@@ -40,7 +40,7 @@
         "simulationBehavior": "skip"
       }
     }
-  },
+  }, 
 
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
@@ -93,6 +93,14 @@
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol"
+    }
+  },
+  "filter-navigator.v3":{
+    "props":{
+      "priceRangeLayout":"inputAndSlider",
+      "showClearByFilter":true,
+      "maxItemsDepartment":10,
+      "maxItemsCategory":10
     }
   },
   "flex-layout.col#content": {
@@ -198,7 +206,11 @@
       "blockClass": "orderByMobileCol"
     }
   },
-
+  "order-by.v2":{
+    "props":{
+      "hiddenOptions":["OrderByCollection","OrderByScoreDESC","OrderByPriceDESC"]
+    }
+  },
   "flex-layout.row#productCountMobile": {
     "children": ["total-products.v2"],
     "props": {

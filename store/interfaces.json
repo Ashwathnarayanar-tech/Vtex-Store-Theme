@@ -4,5 +4,8 @@
     },
     "product-customName":{
         "component":"ProductCustomNameWrapper"
+    },
+    "user-identifier.CustomUserIdentifier": {
+        "component": "CustomUserIdentifier"
     }
 }

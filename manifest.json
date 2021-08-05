@@ -72,7 +72,8 @@
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtexeurope.minicart-freeshipping-bar": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

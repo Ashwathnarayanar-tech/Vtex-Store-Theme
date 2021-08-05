@@ -67,7 +67,8 @@
     "vtex.css-handles": "0.x",
     "vtex.product-context": "0.x",
     "vtex.product-availability": "0.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.my-authentication": "1.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",

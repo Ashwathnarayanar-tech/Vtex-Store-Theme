@@ -83,7 +83,7 @@
     "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "children": ["flex-layout.col#filter","SearchResult-Contex", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true

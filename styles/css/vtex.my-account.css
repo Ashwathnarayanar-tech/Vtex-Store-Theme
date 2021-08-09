@@ -1,0 +1,14 @@
+.boxContainerBody{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nameContainer{
+    padding-bottom: 0rem;
+}
+.menuLink{
+    padding:5px;
+}
+
+.menuLinks{
+    color:red;
+}

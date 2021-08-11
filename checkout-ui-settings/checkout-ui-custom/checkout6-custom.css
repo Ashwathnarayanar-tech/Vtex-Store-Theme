@@ -18,3 +18,7 @@
     justify-content: space-between;
     margin-right: 30px;
 }
+
+.cart-template-holder .cart{
+    background-color: #e1a518;
+}

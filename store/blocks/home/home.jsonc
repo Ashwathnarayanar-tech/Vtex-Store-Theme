@@ -8,12 +8,13 @@
       "flex-layout.row#deals",
       //"hello-world",
       "experimental__visibility-layout#summer-text",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf1",
       "experimental__visibility-layout#info-card",
       "experimental__visibility-layout#question-link",
       "rich-text#question",
       "rich-text#link",
-      "experimental__visibility-layout#newsletter"
+      "experimental__visibility-layout#newsletter",
+      "back-to-top-button"
     ]
   },
 
@@ -62,12 +63,12 @@
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#shelf1": {
+    "children": ["experimental__visibility-layout#product-summary"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#demo2": {
     "blocks": ["product-summary.shelf"],
-    "children": ["experimental__visibility-layout#product-summary"],
+    "children": ["slider-layout#demo-products1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -75,10 +76,10 @@
   "experimental__visibility-layout#product-summary":{
     "title":"product-summary-layout",
     "children":[
-      "slider-layout#demo-products"
+      "list-context.product-list#demo2"
     ]
   },
-  "slider-layout#demo-products": {
+  "slider-layout#demo-products1": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -134,5 +135,10 @@
     "children":[
       "newsletter"
     ]
-  }
+  },
+  "back-to-top-button":{
+        "props":{
+          "displayThreshold": 800
+        }
+      }
 }

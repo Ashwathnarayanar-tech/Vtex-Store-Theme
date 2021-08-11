@@ -1,0 +1,7 @@
+{
+    "extensions": {
+      "my-account-portal/menu/customMenu": {
+        "component": "CustomMenu"
+      }
+    }
+  }

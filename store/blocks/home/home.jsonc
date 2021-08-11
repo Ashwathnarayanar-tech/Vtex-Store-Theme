@@ -13,7 +13,8 @@
       "experimental__visibility-layout#question-link",
       "rich-text#question",
       "rich-text#link",
-      "experimental__visibility-layout#newsletter"
+      "experimental__visibility-layout#newsletter",
+      "back-to-top-button"
     ]
   },
 
@@ -134,5 +135,10 @@
     "children":[
       "newsletter"
     ]
-  }
+  },
+  "back-to-top-button":{
+        "props":{
+          "displayThreshold": 800
+        }
+      }
 }

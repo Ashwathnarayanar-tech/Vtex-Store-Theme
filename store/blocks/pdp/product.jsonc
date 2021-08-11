@@ -101,12 +101,12 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
+      "product-availability",
       "wishlist-button#product-page",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default",
-      "product-availability"
+      "share#default"
     ]
   },
 
@@ -150,8 +150,9 @@
   },
   "product-availability": {
     "props": {
-      "showAvailability": "stock",
-      "showAvailabilityMessage": "There are {quantity} available!"
+      "threshold":"1000",
+      "lowStockMessage":"Only {quantity} left!",
+      "highStockMessage":"Item in stock!"
     }
   }
 }

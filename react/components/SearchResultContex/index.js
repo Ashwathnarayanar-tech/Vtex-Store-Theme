@@ -7,8 +7,9 @@ import {
   const SearchResultContex = () => {
     const { pagination, searchQuery } = useSearchPage()
     const { isFetchingMore } = useSearchPageState()
-    const dispatch = useSearchPageStateDispatch()
-     
+    const dispatch = useSearchPageStateDispatch();
+    //const searchContext = useSearchPage();
+     console.log(" search context --",searchQuery);
     return (
       <div>
      

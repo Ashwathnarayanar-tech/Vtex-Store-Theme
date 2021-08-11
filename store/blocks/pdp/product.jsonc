@@ -101,6 +101,7 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
+      "countdownWrapper",
       "product-availability",
       "wishlist-button#product-page",
       "flex-layout.row#buy-button",

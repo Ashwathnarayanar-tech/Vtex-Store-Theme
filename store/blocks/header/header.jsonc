@@ -13,7 +13,7 @@
       "sticky-layout#4-desktop"
     ]
   },
-
+ 
   "flex-layout.row#1-desktop": {
     "children": ["telemarketing"],
     "props": {
@@ -31,7 +31,7 @@
     "props": {
       "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
     }
-  },
+  }, 
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",

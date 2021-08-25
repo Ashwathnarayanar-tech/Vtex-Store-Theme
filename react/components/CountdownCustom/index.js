@@ -17,7 +17,7 @@ const CountdownCustom = () => {
    ssr: false
  });
 
- console.log({data})
+ console.log("data",{data})
 
 if (loading) {
   return (
@@ -45,6 +45,7 @@ else {
   return (
     <div>
       <span> Product release date : {data?.product?.releaseDate}</span>
+      <span> Product Name : {data?.product?.productName}</span>
     </div>
   )
 }

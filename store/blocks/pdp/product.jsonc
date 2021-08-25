@@ -8,8 +8,27 @@
       "product-specification-group#table",
       "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
-    ]
+      "product-questions-and-answers",
+      "shelf#related"
+    ],
+    "props":{
+      "showSpecificationsTab":true
+    }
+  },
+  "shelf#related": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recomendation": "editor.relatedProducts.similars",
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "More options for this style"
+      }
+    }
   },
   "flex-layout.row#specifications-title": {
     "children": [
@@ -101,6 +120,7 @@
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
+      "countdownWrapper",
       "product-availability",
       "wishlist-button#product-page",
       "flex-layout.row#buy-button",

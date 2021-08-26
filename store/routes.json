@@ -10,5 +10,8 @@
   },
   "store.custom#sample-sustainable":{
     "path":"/sample-sustainable"
-  }
+  },
+  "store.custom#landing": {
+    "path": "/landing"
+}
 }

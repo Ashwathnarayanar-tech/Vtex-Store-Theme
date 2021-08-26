@@ -13,5 +13,26 @@
   },
   "store.custom#landing": {
     "path": "/landing"
-}
+},
+  "store.home#sample-carousal":{
+    "path":"/sample-carousal"
+  },
+  "store.home#sample-sliding":{
+    "path":"/sample-sliding"
+  },
+  "store.home#sample-tabLayout":{
+    "path":"/sample-tabLayout"
+  },
+  "store.home#tab-activity":{
+    "path":"/sample-tabActivity"
+  },
+  "store.home#sample-popup":{
+    "path":"/sample-popup"
+  },
+  "store.home#quick-view":{
+    "path":"/sample-quickview"
+  },
+  "store.home#sample-styledCss":{
+    "path":"/sample-styledCss"
+  }
 }

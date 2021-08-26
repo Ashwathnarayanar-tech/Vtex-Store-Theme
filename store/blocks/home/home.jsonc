@@ -6,17 +6,20 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
+      //"hello-world",
+      "experimental__visibility-layout#summer-text",
+      "flex-layout.row#shelf1",
+      "experimental__visibility-layout#info-card",
+      "experimental__visibility-layout#question-link",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "experimental__visibility-layout#newsletter",
+      "back-to-top-button"
     ]
   },
 
   "list-context.image-list#demo": {
-    "children": ["experimental__visibility-layout#slider-layout"],
+    "children": ["experimental__visibility-layout#carousal"],
     "props": {
       "height": 720,
       "images": [
@@ -31,13 +34,12 @@
       ]
     }
   },
-   "experimental__visibility-layout#slider-layout":{
-     "title":"Deal Changes",
-     "children":[
+  "experimental__visibility-layout#carousal":{
+    "title":"Carousal",
+    "children":[
       "slider-layout#demo-images"
-     ]
-   },
-
+    ]
+  },
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
@@ -51,31 +53,33 @@
     }
   },
 
+  "experimental__visibility-layout#summer-text":{
+    "title":"summer shelf",
+    "children":["rich-text#shelf-title"]
+  },
   "rich-text#shelf-title": {
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+  "flex-layout.row#shelf1": {
+    "children": ["experimental__visibility-layout#product-summary"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#demo2": {
     "blocks": ["product-summary.shelf"],
-    "children": ["experimental__visibility-layout"],
+    "children": ["slider-layout#demo-products1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-
-   "experimental__visibility-layout":{
-     "title":"Product-Summary",
-     "children":[
-      "slider-layout#demo-products"
-     ]
-   },
-
-  "slider-layout#demo-products": {
+  "experimental__visibility-layout#product-summary":{
+    "title":"product-summary-layout",
+    "children":[
+      "list-context.product-list#demo2"
+    ]
+  },
+  "slider-layout#demo-products1": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -88,6 +92,10 @@
     }
   },
 
+  "experimental__visibility-layout#info-card":{
+    "title":"info-card",
+    "children":["info-card#home"]
+  },
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -102,6 +110,13 @@
     }
   },
 
+  "experimental__visibility-layout#question-link":{
+    "title":"Question-Link",
+    "children":[
+      "rich-text#question",
+      "rich-text#link"
+    ]
+  },
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
@@ -114,5 +129,16 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
-  }
+  },
+  "experimental__visibility-layout#newsletter":{
+    "title":"newsletter",
+    "children":[
+      "newsletter"
+    ]
+  },
+  "back-to-top-button":{
+        "props":{
+          "displayThreshold": 800
+        }
+      }
 }

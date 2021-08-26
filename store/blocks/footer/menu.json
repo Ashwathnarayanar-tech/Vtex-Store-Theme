@@ -90,10 +90,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/electronics/cameras",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Cameras",
+        "text": "Cameras"
       }
     }
   },
@@ -106,10 +106,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/electronics/laptops",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Laptops",
+        "text": "Laptops"
       }
     }
   },
@@ -122,7 +122,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/electronics/tvs",
         "noFollow": true,
         "tagTitle": "TVs",
         "text": "TVs"

@@ -67,11 +67,16 @@
     "vtex.css-handles": "0.x",
     "vtex.product-context": "0.x",
     "vtex.product-availability": "0.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.my-authentication": "1.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.my-account-commons": "0.x",
+    "vtex.category-menu": "2.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtexeurope.minicart-freeshipping-bar": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

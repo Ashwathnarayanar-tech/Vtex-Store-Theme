@@ -1,0 +1,69 @@
+{
+    "store.home#sample-sliding":{
+        "blocks":[
+            "slider-layout#activity"
+        ]
+    },
+    "slider-layout#activity":{
+        "children":[
+            "info-card#brand1",
+            "info-card#brand2",
+            "info-card#brand3",
+            "info-card#brand4",
+            "info-card#brand5"
+        ],
+        "props":{
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+              }
+        }
+    },
+    "info-card#brand1":{
+        "props": {
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+            "isFullModeStyle": true,
+            
+            "callToActionText": "Subscribe",
+            "textPosition": "center"
+          }
+    },
+    "info-card#brand2":{
+        "props": {
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
+            "isFullModeStyle": true,
+            
+            "callToActionText": "Subscribe",
+            "textPosition": "center"
+          }
+          
+    },
+    "info-card#brand3":{
+        "props": {
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
+            "isFullModeStyle": true,
+           
+            "callToActionText": "Subscribe",
+            "textPosition": "center"
+          }
+
+      },
+      "info-card#brand4":{
+        "props": {
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+            "isFullModeStyle": true,
+            
+            "callToActionText": "Subscribe",
+            "textPosition": "center"
+          }          
+      },
+      "info-card#brand5":{
+        "props": {
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
+            "isFullModeStyle": true,
+            
+            "callToActionText": "Subscribe",
+            "textPosition": "center"
+          }   
+      }
+}

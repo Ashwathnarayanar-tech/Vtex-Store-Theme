@@ -1,0 +1,37 @@
+{
+    "store.home#sample-popup":{
+        "blocks":[
+            "modal-trigger#first"
+            
+        ]
+    },
+    "modal-trigger#first":{
+        "children":[
+            "rich-text#display",
+            "modal-layout#first"
+        ]
+    },
+    "rich-text#display":{
+        "props":{
+            "text":"click me!"
+        }
+    },
+    "modal-layout#first":{
+        "children":[
+            "rich-text#popup",
+            "modal-header#heading"
+        ]
+    },
+    "rich-text#popup":{
+        "props":{
+            "text":"hello world!"
+        }
+    },
+    "modal-header#heading":{
+        "props":{
+            "showCloseButton":true,
+            "iconCloseSize":32
+
+        }
+    }
+}

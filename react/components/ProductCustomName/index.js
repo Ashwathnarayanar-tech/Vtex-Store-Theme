@@ -8,12 +8,14 @@ const ProductCustomName = () => {
   const productContextValue = useProduct();
   const  HttpapiOptions = apiOptions('GET');
   const GetData  = () =>{
-    return fetch('https://echidna.vtexcommercestable.com.br/api/catalog_system/pvt/products/GetProductAndSkuIds?categoryId=101&_from=1&_to=10s', HttpapiOptions)
+    return fetch('https://demoashwath--echidna.myvtex.com/_v/status/4', HttpapiOptions)
         .then(response => response.json())
         .then(data => {
+          console.log("data -----",data);
           return data; 
         });
   }
+  GetData();
   return (
     <div>
        

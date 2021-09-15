@@ -5,8 +5,8 @@ export const apiOptions = (method,body) =>{
         headers: { 
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'X-VTEX-API-AppKey': 'vtexappkey-echidna-XIRYPK',
-            'X-VTEX-API-AppToken': 'DZFBAOGPFQAYSCDMOWPPALPLVXIZBFHAMZJKWZTZZXKTXOEAQBMMFRCRJTFDFGOZIZLTTSQOCPPCBWOGTHIZTVVVWRBDUPUTJKKYDKHYLYJQCZPNFYKYYOGMEQWBRMUM'
+           // 'X-VTEX-API-AppKey': 'vtexappkey-echidna-XIRYPK',
+           // 'X-VTEX-API-AppToken': 'DZFBAOGPFQAYSCDMOWPPALPLVXIZBFHAMZJKWZTZZXKTXOEAQBMMFRCRJTFDFGOZIZLTTSQOCPPCBWOGTHIZTVVVWRBDUPUTJKKYDKHYLYJQCZPNFYKYYOGMEQWBRMUM'
         }
     }
     if(body){

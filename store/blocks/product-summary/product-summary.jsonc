@@ -10,8 +10,8 @@
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",
-     // "add-to-cart-button",
-      "add-to-cart-button#buyNow"
+      "add-to-cart-button"
+      //"add-to-cart-button#buyNow"
     ]
   },
   "flex-layout.col#productRating": {
